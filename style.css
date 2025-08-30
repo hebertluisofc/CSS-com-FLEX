@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+body {
+    padding: 7px;
+}
+
+.geral {
+    height: 940px;
+    display: flex;
+}
+
+/* LADO ESQUERDO */
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.img-perfil {
+    background-color: limegreen;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    background-color: rgb(80, 33, 14);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.formacao {
+    background-color: rgb(167, 18, 18);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* LADO DIREITO */
+
+.right {
+    flex: 4;
+     display: flex;
+    flex-direction: column;
+}
+
+.sobre {
+    flex: 1;
+    background-color: #b5fc11;
+}
+
+.experiencia {
+    flex: 1;
+    display: flex;
+}
+
+.ano {
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.data {
+    background-color: green;
+    height: 55%;
+    width: 31%;
+}
+
+.texto {
+    background-color: darkblue;
+    height: 55%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragrafo {
+    flex: 1;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+}
+
+.descricao {
+    background-color: yellow;
+    color: black;
+    height: 55%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.competencia {
+    flex: 1;
+    background-color: rgb(231, 43, 9)
+}
